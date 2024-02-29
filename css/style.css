@@ -68,6 +68,80 @@ a:hover {
 a:active {
     color: #ff1e00;
 }
+.eng-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub-title {
+    display: inline-block;
+    text-align: start;
+    /* background-color: #607274; */
+    background-color: #B2A59B;
+    color: #FAEED1;
+    /* 1rem 16px */
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: black 2px solid;
+    padding-left: 12px;
+    border-radius: 4px;
+    margin: 12px 0;
+}
+
+
+
+.slogan {
+    background-color: rgb(60, 255, 0);
+    color: #e61414;
+    font-size: 20px;
+}
+
+#container {
+    padding: 1rem;
+ }
+
+.image {
+    background-color: rgb(230, 224, 224);
+    padding: 12px;
+    width: 28%;
+}
+
+#photo {
+    text-align: center;
+    background-color: #6DA4AA;
+    border-radius: 2rem;
+    padding: 24px 0;
+}
+            
+table {
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+    border: 3px black solid;
+}
+
+thead {
+    background-color: #668a8e;
+    color: aliceblue;
+}
+
+tbody {
+            background-color: rgb(37, 232, 232);
+            color: rgb(81, 160, 163);
+        }
+
+td:first-child {
+            background-color: #e61414;
+            color: azure;
+        }
+
+td:nth-child(3) {
+    background-color: #e61414;
+    color: azure;
+}
+
+#video {
+    text-align: center;
+}
 
 @media screen and (max-width:1024px) {
     textarea {
